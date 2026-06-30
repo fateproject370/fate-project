@@ -1,41 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="Fate Project Son Coin logo">
   <defs>
-    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16 15) rotate(90) scale(16)">
-      <stop offset="0" stop-color="#5D3A10"/>
-      <stop offset="0.62" stop-color="#2F1A08"/>
-      <stop offset="1" stop-color="#0D0806"/>
+    <radialGradient id="coin" cx="34%" cy="28%" r="75%">
+      <stop offset="0%" stop-color="#fff0b0"/><stop offset="27%" stop-color="#e9b34b"/><stop offset="66%" stop-color="#9a5a18"/><stop offset="100%" stop-color="#3a2109"/>
     </radialGradient>
-    <linearGradient id="bronze" x1="6" y1="4" x2="26" y2="28" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFE1A0"/>
-      <stop offset="0.18" stop-color="#E7B056"/>
-      <stop offset="0.5" stop-color="#8D5319"/>
-      <stop offset="0.82" stop-color="#D89C42"/>
-      <stop offset="1" stop-color="#FFF0C2"/>
+    <radialGradient id="dark" cx="50%" cy="44%" r="70%">
+      <stop offset="0%" stop-color="#4b2b0c"/><stop offset="100%" stop-color="#120803"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="8" y1="7" x2="24" y2="26">
+      <stop offset="0%" stop-color="#fff3bd"/><stop offset="45%" stop-color="#f0bc55"/><stop offset="100%" stop-color="#9b5b17"/>
     </linearGradient>
-    <linearGradient id="gold" x1="9" y1="8" x2="22" y2="24" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFF1B8"/>
-      <stop offset="0.25" stop-color="#F8C961"/>
-      <stop offset="0.55" stop-color="#C27A1F"/>
-      <stop offset="1" stop-color="#FFDE8C"/>
-    </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="0.8" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="0.45" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <circle cx="16" cy="16" r="15.2" stroke="#1CD4FF" stroke-width="1.2" opacity="0.9" filter="url(#glow)"/>
-  <circle cx="16" cy="16" r="14.3" fill="url(#bronze)"/>
-  <circle cx="16" cy="16" r="12.6" fill="url(#bg)" stroke="#F2C86A" stroke-width="0.7"/>
-  <path d="M9.4 7.4l0.55 1.12 1.23 0.18-0.89 0.86 0.21 1.22-1.1-0.58-1.1 0.58 0.21-1.22-0.89-0.86 1.23-0.18 0.55-1.12z" fill="url(#gold)"/>
-  <path d="M22.6 7.4l0.55 1.12 1.23 0.18-0.89 0.86 0.21 1.22-1.1-0.58-1.1 0.58 0.21-1.22-0.89-0.86 1.23-0.18 0.55-1.12z" fill="url(#gold)"/>
-  <path d="M11.1 11.2c0.45-2.2 2.5-3.8 5.2-3.8 3.1 0 5.75 1.95 6.55 4.7-0.9-0.35-2.02-0.56-3.16-0.56-0.94 0-1.8 0.12-2.57 0.35-0.58-1.08-1.84-1.81-3.37-1.81-1.01 0-1.92 0.32-2.65 1.12z" fill="url(#gold)"/>
-  <path d="M18.1 10.9c2.4-0.15 4.85 0.35 6.7 1.35 0.62 0.33 0.58 1.24-0.07 1.47-2.54 0.89-4.9 0.62-7.32-0.19l0.69-2.63z" fill="url(#gold)"/>
-  <path d="M18.55 12.2c-2.78 0-5.05 2.32-5.05 5.18 0 1.6 0.71 3.04 1.83 3.99-0.05 0.78-0.51 1.54-1.51 2.24 1.6 0.08 2.85-0.31 3.86-1.1 0.28 0.05 0.57 0.08 0.87 0.08 2.78 0 5.05-2.32 5.05-5.21s-2.27-5.18-5.05-5.18z" fill="url(#gold)"/>
-  <circle cx="20.3" cy="17.0" r="0.62" fill="#5F3307" opacity="0.9"/>
-  <path d="M18.45 18.15c0.75 0.44 1.75 0.44 2.5 0" stroke="#7A4210" stroke-width="0.62" stroke-linecap="round"/>
-  <path d="M17.7 19.85c0.92 0.67 2.13 0.9 3.18 0.53" stroke="#7A4210" stroke-width="0.68" stroke-linecap="round"/>
-  <path d="M13.75 16.9c0.48 0.22 0.95 0.31 1.52 0.24" stroke="#7A4210" stroke-width="0.52" stroke-linecap="round"/>
-  <path d="M12.25 24.2c1.26-1.62 3.18-2.52 5.31-2.52 1.64 0 3.08 0.39 4.29 1.25-1.5 1.85-3.63 3.05-5.95 3.05-1.37 0-2.62-0.35-3.65-1.78z" fill="url(#gold)" opacity="0.92"/>
-  <rect x="11.2" y="24.4" width="9.6" height="2.4" rx="0.7" fill="#4E2A0A" stroke="#E4B861" stroke-width="0.4"/>
-  <path d="M12.4 25.75h1.1M14.1 25.75h1.0M15.6 25.75h1.0M17.1 25.75h1.0M18.6 25.75h1.0" stroke="#F7D98D" stroke-width="0.45" stroke-linecap="round"/>
+  <circle cx="16" cy="16" r="15.15" fill="#071018"/>
+  <circle cx="16" cy="16" r="14.55" stroke="#22d4ff" stroke-width="1.35" fill="none" filter="url(#glow)"/>
+  <circle cx="16" cy="16" r="13.15" fill="url(#coin)"/>
+  <circle cx="16" cy="16" r="11.25" fill="url(#dark)" stroke="#f0c368" stroke-width="0.75"/>
+
+  <path d="M8.6 7.25l.8 2.28h2.42l-1.96 1.43.75 2.32-2.01-1.42-2 1.42.75-2.32-1.96-1.43h2.42z" fill="url(#gold)" stroke="#fff0b4" stroke-width=".35" stroke-linejoin="round"/>
+
+  <path d="M11.15 12.05c.75-2.3 2.95-3.85 5.55-3.55 2.55.3 4.15 1.75 4.85 3.62-2.05-.38-4.33-.28-6.35.38-1.1.35-2.45.18-4.05-.45z" fill="url(#gold)" stroke="#5b3108" stroke-width=".55" stroke-linejoin="round"/>
+  <path d="M18.85 11.45c2.65-.45 5.15-.08 6.55.75.42.25.35.9-.12 1.05-2.1.67-4.18.65-6.75.05z" fill="url(#gold)" stroke="#5b3108" stroke-width=".55" stroke-linejoin="round"/>
+  <path d="M15.2 8.9c-.2 1.15-.25 2.25-.12 3.35M18.1 9.55c.7.72 1.1 1.45 1.35 2.35" stroke="#7c4712" stroke-width=".45" stroke-linecap="round"/>
+
+  <path d="M12.2 12.6c1.1.55 2.45.58 3.7.18-.35.72-.95 1.15-1.9 1.35.38.3.78.45 1.4.48-.78.7-1.62 1.02-2.62 1.02-.55-.72-.75-1.82-.58-3.03z" fill="#4a2708" opacity=".88"/>
+
+  <path d="M16.15 12.4c2.35-.1 4.58 1.4 5.2 3.6.22.8.7 1.28 1.6 1.62.45.18.42.72 0 .88l-1.25.42c-.32 1.45-1.25 2.65-2.58 3.25-.7.32-.85.9-.58 1.6l.35.9c-1.5.32-3.45.08-5.48-.85.58-.8.78-1.75.72-2.82-1.38-1.15-2.08-2.85-1.85-4.55.32-2.25 1.72-3.67 3.87-3.75z" fill="url(#gold)" stroke="#5b3108" stroke-width=".55" stroke-linejoin="round"/>
+
+  <circle cx="14.55" cy="17.4" r="1.27" fill="#e4aa3e" stroke="#5b3108" stroke-width=".55"/>
+  <path d="M14.25 17.15c.55-.25.95.22.7.75-.15.3-.38.48-.72.55" stroke="#5b3108" stroke-width=".45" stroke-linecap="round" fill="none"/>
+
+  <path d="M18.35 16.25c.62-.48 1.43-.48 2.02-.02" stroke="#5b3108" stroke-width=".48" stroke-linecap="round"/>
+  <ellipse cx="19.45" cy="16.95" rx=".72" ry=".52" fill="#fff0b4" stroke="#5b3108" stroke-width=".45"/>
+  <circle cx="19.68" cy="16.96" r=".28" fill="#2b1604"/>
+  <path d="M21.25 17.3c.25.5.52.78.9.92" stroke="#70400f" stroke-width=".42" stroke-linecap="round"/>
+  <path d="M19.45 20.05c.62.25 1.2.18 1.65-.18" stroke="#5b3108" stroke-width=".45" stroke-linecap="round"/>
+  <path d="M17.1 21.7c.82.65 1.72.95 2.78.92" stroke="#5b3108" stroke-width=".45" stroke-linecap="round"/>
+
+  <path d="M11.25 25.05c1.72-1.15 3.8-1.45 6.2-.7 1.12.35 2.15.92 3.1 1.72-2.45 1.12-6.3 1.02-9.3-1.02z" fill="url(#gold)" stroke="#5b3108" stroke-width=".55" stroke-linejoin="round"/>
 </svg>
