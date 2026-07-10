@@ -4,94 +4,168 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fate Project (FATE)</title>
-  <meta name="description" content="Official public information page for Fate Project (FATE), a BEP-20 token on BNB Smart Chain.">
+  <meta name="description" content="Official public information page for Fate Project (FATE), a BEP-20 community and utility project on BNB Smart Chain.">
   <style>
+    :root {
+      --bg: #050814;
+      --card: rgba(10, 12, 18, 0.86);
+      --border: rgba(235, 199, 100, 0.34);
+      --text: #f7e8c3;
+      --muted: #d9c58d;
+      --gold: #ffd76a;
+      --cyan: #43e6ff;
+      --link: #43e6ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      color: #f7e8c3;
-      background: radial-gradient(circle at top, #16284a 0%, #090b14 55%, #05060a 100%);
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top, #16284a 0%, #090b14 50%, #05060a 100%);
+      line-height: 1.6;
     }
 
     main {
-      max-width: 820px;
+      max-width: 980px;
       margin: 0 auto;
-      padding: 32px 18px;
+      padding: 32px 18px 56px;
     }
 
     .card {
-      background: rgba(10, 12, 18, 0.86);
-      border: 1px solid rgba(235, 199, 100, 0.32);
+      background: var(--card);
+      border: 1px solid var(--border);
       border-radius: 20px;
       padding: 26px;
       margin-bottom: 22px;
       box-shadow: 0 12px 38px rgba(0, 0, 0, 0.35);
     }
 
+    .hero {
+      text-align: center;
+      padding-top: 34px;
+      padding-bottom: 34px;
+    }
+
     .logo {
       width: 160px;
       height: 160px;
-      display: block;
-      margin: 0 auto 22px;
+      object-fit: contain;
       border-radius: 50%;
+      margin-bottom: 18px;
+      background: rgba(255, 255, 255, 0.06);
     }
 
     h1 {
-      margin: 0 0 10px;
-      font-size: 42px;
-      line-height: 1.05;
-      color: #ffd98a;
-      text-align: center;
+      margin: 0;
+      font-size: 44px;
+      line-height: 1.15;
+      color: var(--gold);
+      letter-spacing: 0.2px;
     }
 
     h2 {
-      margin: 0 0 16px;
-      font-size: 24px;
-      color: #ffd98a;
+      margin: 0 0 14px;
+      color: var(--gold);
+      font-size: 26px;
+      line-height: 1.25;
+    }
+
+    h3 {
+      margin: 18px 0 8px;
+      color: var(--cyan);
+      font-size: 19px;
+    }
+
+    .tagline {
+      margin: 8px 0 18px;
+      color: var(--cyan);
+      font-weight: 700;
+      letter-spacing: 0.8px;
     }
 
     p {
-      font-size: 18px;
-      line-height: 1.55;
-      color: #efe2c2;
-      margin: 8px 0;
+      margin: 10px 0;
     }
 
-    .ticker {
-      text-align: center;
-      color: #60dfff;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      margin-bottom: 18px;
+    ul {
+      margin: 10px 0;
+      padding-left: 22px;
     }
 
-    .label {
-      color: #ffd98a;
-      font-weight: 700;
+    li {
+      margin: 7px 0;
     }
 
     a {
-      color: #66dfff;
-      word-break: break-all;
+      color: var(--link);
+      word-break: break-word;
+    }
+
+    .label {
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 14px;
     }
 
     footer {
-      margin-top: 28px;
-      color: #b9a982;
-      font-size: 14px;
       text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+      padding: 8px 0 18px;
+    }
+
+    @media (max-width: 640px) {
+      h1 {
+        font-size: 34px;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+
+      .logo {
+        width: 128px;
+        height: 128px;
+      }
+
+      .card {
+        padding: 20px;
+      }
     }
   </style>
 </head>
-
 <body>
   <main>
-    <section class="card">
-      <img class="logo" src="son_coin_site.png?v=2" alt="Fate Project logo">
+    <section class="card hero">
+      <img class="logo" src="fate_son_bscscan_32x32.svg" alt="Fate Project logo">
       <h1>Fate Project</h1>
-      <div class="ticker">FATE · BEP-20 · BNB Smart Chain</div>
+      <p class="tagline">FATE · BEP-20 · BNB Smart Chain</p>
       <p>
-        Fate Project is a BEP-20 token on BNB Smart Chain created as a community and utility project around the ideas of personal destiny, legacy, family values and digital identity.
+        Fate Project is a community and utility project built around the FATE BEP-20 token on BNB Smart Chain.
+      </p>
+      <p>
+        The project is focused on personal destiny, decision-making tools, legacy, digital identity and symbolic utility within a growing ecosystem.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>About Fate Project</h2>
+      <p>
+        Fate Project is a developing digital ecosystem based on the FATE token.
+      </p>
+      <p>
+        The project combines utility tools, symbolic digital products, decision-support concepts and future legacy-oriented features.
+      </p>
+      <p>
+        Fate Project is currently in an early development stage. The website, public documentation, official links and ecosystem structure are being prepared step by step.
       </p>
     </section>
 
@@ -104,29 +178,106 @@
       <p><span class="label">Token Standard:</span> BEP-20</p>
       <p><span class="label">Contract Address:</span> <a href="https://bscscan.com/token/0xFdC6b6B49B71151e813ac2F7A3d07c06BC5B62CB">0xFdC6b6B49B71151e813ac2F7A3d07c06BC5B62CB</a></p>
       <p><span class="label">Max Total Supply:</span> 1,000,000 FATE</p>
-      <p><span class="label">Official Website:</span> <a href="https://fateproject370.github.io/fate-project/">https://fateproject370.github.io/fate-project/</a></p>
-      <p><span class="label">Official Email:</span> <a href="mailto:ruso.bit370@gmail.com">ruso.bit370@gmail.com</a></p>
+      <p><span class="label">Official Website:</span> <a href="https://fateproject.ru">https://fateproject.ru</a></p>
+      <p><span class="label">Official Email:</span> <a href="mailto:contact@fateproject.ru">contact@fateproject.ru</a></p>
+      <p><span class="label">Official Telegram:</span> <a href="https://t.me/fateproject_official">https://t.me/fateproject_official</a></p>
       <p><span class="label">Official GitHub:</span> <a href="https://github.com/fateproject370/fate-project">https://github.com/fateproject370/fate-project</a></p>
       <p><span class="label">BscScan Token Page:</span> <a href="https://bscscan.com/token/0xFdC6b6B49B71151e813ac2F7A3d07c06BC5B62CB">https://bscscan.com/token/0xFdC6b6B49B71151e813ac2F7A3d07c06BC5B62CB</a></p>
     </section>
 
     <section class="card">
+      <h2>Tokenomics</h2>
+      <p><span class="label">Total Supply:</span> 1,000,000 FATE</p>
+      <p>
+        The FATE token supply is fixed at 1,000,000 tokens.
+      </p>
+      <p>
+        FATE is planned to be used within the future Fate Project ecosystem, including community tools, symbolic digital products and utility-based features.
+      </p>
+      <p>
+        No financial return, income, price growth or profit is promised or guaranteed by the project.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Ecosystem Tools</h2>
+      <p>
+        Fate Project is planned as an ecosystem of digital tools and symbolic products connected by the FATE token.
+      </p>
+      <ul>
+        <li><strong>FATE Calculator</strong> — a planned utility tool for calculating deals, profit, goals, margins, risks and decision scenarios.</li>
+        <li><strong>FATE Flip</strong> — a planned coin-flip decision tool inspired by the symbolic idea of choice and personal destiny.</li>
+        <li><strong>FATE Legacy</strong> — a planned direction focused on digital family memory, legacy symbols and future NFT/NFC integrations.</li>
+      </ul>
+      <p>
+        Additional tools may be added in the future only after testing and public readiness.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Roadmap</h2>
+
+      <h3>Phase 1 — Foundation</h3>
+      <ul>
+        <li>Launch of the FATE BEP-20 token on BNB Smart Chain.</li>
+        <li>Creation of the official GitHub repository.</li>
+        <li>Preparation of the official website and public project information.</li>
+      </ul>
+
+      <h3>Phase 2 — Official Project Structure</h3>
+      <ul>
+        <li>Launch of the official domain.</li>
+        <li>Creation of official communication channels.</li>
+        <li>Preparation of public project documentation and Litepaper.</li>
+        <li>Improvement of website structure and official links.</li>
+      </ul>
+
+      <h3>Phase 3 — Utility Tools</h3>
+      <ul>
+        <li>Development of FATE Calculator.</li>
+        <li>Preparation of FATE Flip concept.</li>
+        <li>Testing of early ecosystem tools.</li>
+      </ul>
+
+      <h3>Phase 4 — Legacy Direction</h3>
+      <ul>
+        <li>Development of the FATE Legacy concept.</li>
+        <li>Research of NFT, NFC and QR-based digital memory integrations.</li>
+        <li>Preparation of future symbolic digital products.</li>
+      </ul>
+
+      <h3>Phase 5 — Community Growth</h3>
+      <ul>
+        <li>Expansion of public information.</li>
+        <li>Improvement of ecosystem tools.</li>
+        <li>Gradual development of community-oriented features.</li>
+      </ul>
+    </section>
+
+    <section class="card">
       <h2>Founder / Contact</h2>
       <p><span class="label">Founder:</span> Ruslan Guliev</p>
-      <p><span class="label">Official Contact Email:</span> <a href="mailto:ruso.bit370@gmail.com">ruso.bit370@gmail.com</a></p>
+      <p><span class="label">Official Contact Email:</span> <a href="mailto:contact@fateproject.ru">contact@fateproject.ru</a></p>
+      <p><span class="label">Official Telegram:</span> <a href="https://t.me/fateproject_official">https://t.me/fateproject_official</a></p>
       <p><span class="label">GitHub Profile:</span> <a href="https://github.com/fateproject370">https://github.com/fateproject370</a></p>
     </section>
 
     <section class="card">
-      <h2>Project Statement</h2>
+      <h2>Disclaimer</h2>
       <p>
-        FATE is not affiliated with any government institution, public authority or third-party brand.
+        FATE is not an investment product, financial instrument, security or guaranteed income source.
       </p>
       <p>
-        FATE does not promise or guarantee profit, income, investment return or financial result.
+        Fate Project does not promise income, profit, investment return, price growth, financial results or any guaranteed benefit.
       </p>
       <p>
-        This website is the official public information page for Fate Project token.
+        Nothing published on this website should be considered financial, investment, legal, tax or professional advice.
+      </p>
+      <p>
+        Fate Project is not affiliated with any government authority, public institution, exchange, financial organization or third-party brand.
+      </p>
+      <p>
+        Users are responsible for their own decisions, research and risk assessment.
       </p>
     </section>
 
