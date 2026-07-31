@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FATE Holder Verification Beta | Read-only Balance Check</title>
+  <meta name="description" content="Connect a browser wallet by choice and perform a read-only FATE balance check on BNB Smart Chain. No transaction, approval or signature is requested.">
+  <link rel="canonical" href="https://fateproject.ru/holder-verification.html">
+  <link rel="icon" href="/assets/images/fate-token-logo-32.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FATE Holder Verification Beta">
+  <meta property="og:description" content="A client-side, read-only FATE balance check on BNB Smart Chain with no transaction, approval or signature request.">
+  <meta property="og:url" content="https://fateproject.ru/holder-verification.html">
+  <meta property="og:image" content="https://fateproject.ru/assets/images/fate-project-logo.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="FATE Holder Verification Beta">
+  <meta name="twitter:description" content="A client-side, read-only FATE balance check on BNB Smart Chain with no transaction, approval or signature request.">
+  <meta name="twitter:image" content="https://fateproject.ru/assets/images/fate-project-logo.png">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FATE Holder Verification Beta",
+    "url": "https://fateproject.ru/holder-verification.html",
+    "description": "A client-side, read-only FATE balance check on BNB Smart Chain.",
+    "inLanguage": "en"
+  }
+  </script>
+  <script src="/assets/js/holder-verification.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand-link" href="/" aria-label="FATE Project home">
+        <img src="/assets/images/fate-token-logo-32.svg" width="42" height="42" alt="">
+        <span>FATE Project</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="/">Home</a>
+        <a href="/token-transparency.html">Token Transparency</a>
+        <a href="/holder-verification.html" aria-current="page">Holder Verification</a>
+        <a href="/products.html">Products</a>
+        <a href="/litepaper.html">Litepaper</a>
+        <a href="/founder.html">Founder</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="page-shell">
+    <section class="hero hero-compact" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">Current FATE token function · Public beta</p>
+        <h1 id="page-title">Holder Verification</h1>
+        <p class="lead">Check whether a connected wallet holds FATE through a read-only call to the verified token contract on BNB Smart Chain.</p>
+      </div>
+      <img class="hero-logo" src="/assets/images/fate-project-logo.png" width="512" height="512" alt="FATE Project gold and cyan token artwork">
+    </section>
+
+    <section class="section" aria-labelledby="tool-title">
+      <h2 id="tool-title">Read-only verification beta</h2>
+      <div class="wallet-panel">
+        <p>The tool does not connect automatically. Select the button below only if you want your browser wallet to provide its public account address.</p>
+        <div class="wallet-actions">
+          <button class="button" id="connect-wallet" type="button">Connect browser wallet</button>
+          <button class="button button-secondary" id="switch-network" type="button" hidden>Switch to BNB Smart Chain</button>
+          <button class="button button-secondary" id="check-balance" type="button" disabled>Check FATE balance</button>
+        </div>
+        <dl class="wallet-results">
+          <div>
+            <dt>Connected wallet address</dt>
+            <dd id="wallet-address">Not connected</dd>
+          </div>
+          <div>
+            <dt>Active network</dt>
+            <dd id="active-network">Not detected</dd>
+          </div>
+          <div>
+            <dt>FATE balance</dt>
+            <dd id="fate-balance">Not checked</dd>
+          </div>
+          <div>
+            <dt>Verification result</dt>
+            <dd id="verification-result">Not verified</dd>
+          </div>
+        </dl>
+        <p class="live-status" id="wallet-status" role="status" aria-live="polite">No wallet request has been made.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="how-title">
+      <h2 id="how-title">How it works</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>1. User-controlled connection</h3>
+          <p>A wallet connection request begins only after the user selects “Connect browser wallet.”</p>
+        </article>
+        <article class="card">
+          <h3>2. Network check</h3>
+          <p>The tool requires BNB Smart Chain mainnet, chain ID <span class="address">0x38</span>, and offers a visible switch request when another network is active.</p>
+        </article>
+        <article class="card">
+          <h3>3. Read-only balance call</h3>
+          <p>The browser makes an <span class="address">eth_call</span> to <span class="address">balanceOf(address)</span> and displays the returned FATE balance.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="security-title">
+      <div class="notice notice-security">
+        <h2 id="security-title">Privacy and security notice</h2>
+        <p>This beta performs a read-only blockchain balance check in the user’s browser. It does not request token approval, token transfers, message signatures, private keys or seed phrases. Wallet addresses and balances are not stored by FATE Project.</p>
+        <p>No analytics, trackers, server submission, gated paid access, token award or reward mechanism is used.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="contract-title">
+      <h2 id="contract-title">Contract checked</h2>
+      <article class="card">
+        <p class="address">0xFdC6b6B49B71151e813ac2F7A3d07c06BC5B62CB</p>
+        <p>Network: BNB Smart Chain · Standard: BEP-20 · Decimals: 18</p>
+        <a href="/token-transparency.html">Review all FATE contract and market facts</a>
+      </article>
+    </section>
+
+    <section class="section" aria-labelledby="limitations-title">
+      <h2 id="limitations-title">Limitations</h2>
+      <div class="notice notice-warning">
+        <ul class="check-list">
+          <li>A positive balance verifies only that the connected address currently holds FATE.</li>
+          <li>The check does not establish identity, ownership of another address, eligibility, value or financial status.</li>
+          <li>Wallet availability and RPC responses are controlled by the user’s wallet provider.</li>
+          <li>No reward, return or future benefit is promised.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-shell">
+      <p>FATE Project · Holder Verification Beta</p>
+      <p><a href="/">Home</a> · <a href="/token-transparency.html">Token transparency</a> · <a href="mailto:contact@fateproject.ru">Contact</a></p>
+    </div>
+  </footer>
+</body>
+</html>

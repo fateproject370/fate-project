@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fateproject.ru/sitemap.xml
