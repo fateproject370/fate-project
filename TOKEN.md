@@ -1,6 +1,6 @@
 # FATE Token Status
 
-Last updated: 30 July 2026
+Market and holder disclosure updated: 31 August 2026
 
 ## Identity and contract
 
@@ -28,7 +28,7 @@ Last updated: 30 July 2026
 
 ## Supply and distribution
 
-As of 30 July 2026, the deployer address holds 1,000,000 FATE, representing 100% of the fixed supply. No distribution beyond the initial mint has occurred.
+The 30 July 2026 disclosure recorded the deployer holding 1,000,000 FATE (100% of supply). That is a historical snapshot, not a current balance. On 31 August 2026, GeckoTerminal displayed 8 holder addresses. Address count does not establish the number of independent people or wallet ownership. See the [current holder balances on BscScan](https://bscscan.com/token/0xFdC6b6B49B71151e813ac2F7A3d07c06BC5B62CB#balances).
 
 ## Sale and fundraising status
 
@@ -38,11 +38,14 @@ As of 30 July 2026, the deployer address holds 1,000,000 FATE, representing 100%
 
 ## Liquidity and trading status
 
-- No liquidity pool is active.
-- FATE is not currently listed on an exchange.
-- FATE is not currently traded.
-- No official market price exists.
+- FATE/WBNB pool: [PancakeSwap V3, tracked on GeckoTerminal](https://www.geckoterminal.com/bsc/pools/0xa7a3ce397dcbb9fc66b28145e77b16728c23768c).
+- Centralized exchange listing: not confirmed. A DEX pool does not imply a centralized exchange listing or endorsement.
+- Displayed pool price in the 31 August 2026 snapshot: $0.001973. It is not a guaranteed execution or exit price.
 - No financial return, yield, price increase or profit is promised.
+
+Observed on 31 August 2026 on [GeckoTerminal](https://www.geckoterminal.com/bsc/pools/0xa7a3ce397dcbb9fc66b28145e77b16728c23768c): 8 holder addresses, approximately $33.25 liquidity, $0 volume over the preceding 24 hours, 0 buys and 0 sells. These are dated third-party figures, not a live feed or proof of independent demand. Earlier trades are visible in the pool history.
+
+No project token sale means no presale or fundraising sale; secondary-market swaps are separate.
 
 ## Current token function
 
@@ -53,8 +56,8 @@ The beta does not transfer tokens, request token approval, request a message sig
 ## Risks and limitations
 
 - FATE Project is an early-stage founder-led project.
-- One holder, the deployer, currently holds 100% of the fixed supply.
-- No market liquidity or active trading exists.
+- Holder addresses may be related; their count does not establish independent ownership or demand. Review the holder list for current balances.
+- Reported liquidity is very low. Trades may have substantial price impact, and the displayed price is not a guaranteed execution or exit price.
 - Future product or token integrations are not assured.
 - No token value or financial return is guaranteed.
 
@@ -68,4 +71,4 @@ The beta does not transfer tokens, request token approval, request a message sig
 
 ## Disclaimer
 
-FATE is not an investment product, financial instrument, security or guaranteed source of income. The information above documents the project’s stated and on-chain status as of 30 July 2026 and is not financial, investment, legal, tax or professional advice.
+FATE is not an investment product, financial instrument, security or guaranteed source of income. The market and holder figures above are a dated third-party snapshot observed on 31 August 2026; contract and product statements have not been newly audited in this update. This document is not financial, investment, legal, tax or professional advice.

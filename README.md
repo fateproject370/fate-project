@@ -1,7 +1,7 @@
 # FATE Project
 
 
-FATE Project is a founder-led digital project developing practical software tools and digital legacy concepts. FATE is the project’s fixed-supply BEP-20 token on BNB Smart Chain. Its first public token-related function is a read-only holder verification beta. No token sale, liquidity pool, exchange listing or active trading currently exists.
+FATE Project is a founder-led digital project developing practical software tools and digital legacy concepts. FATE is the project’s fixed-supply BEP-20 token on BNB Smart Chain. Its first public token-related function is a read-only holder verification beta. No presale or project fundraising round has been conducted. A FATE/WBNB pool exists on PancakeSwap V3. Its existence does not establish independent demand.
 
 ## Token facts
 
@@ -19,19 +19,23 @@ FATE Project is a founder-led digital project developing practical software tool
 
 The complete supply was minted once during deployment. The deployed contract exposes no public or external mint function, no public burn function, and no owner or administrator role. It is not Ownable. The ABI contains standard ERC-20 functionality, and no additional supply can be minted through the deployed contract.
 
-## Current token status
+## Token status · market snapshot observed 31 August 2026
 
 - No public token sale has occurred.
 - No private token sale has occurred.
 - No presale, ICO, IEO, launchpad sale or fundraising round has occurred.
-- No liquidity pool is active.
-- FATE is not listed on an exchange and is not actively traded.
-- No official market price exists.
+- FATE/WBNB pool: [PancakeSwap V3, tracked on GeckoTerminal](https://www.geckoterminal.com/bsc/pools/0xa7a3ce397dcbb9fc66b28145e77b16728c23768c).
+- Centralized exchange listing: not confirmed. A DEX pool does not imply a centralized exchange listing or endorsement.
+- Displayed pool price in the 31 August 2026 snapshot: $0.001973. It is not a guaranteed execution or exit price.
 - No financial return, yield, price increase or profit is promised.
+
+Observed on 31 August 2026 on [GeckoTerminal](https://www.geckoterminal.com/bsc/pools/0xa7a3ce397dcbb9fc66b28145e77b16728c23768c): 8 holder addresses, approximately $33.25 liquidity, $0 volume over the preceding 24 hours, 0 buys and 0 sells. These are dated third-party figures, not a live feed or proof of independent demand. Earlier trades are visible in the pool history.
+
+No project token sale means no presale or fundraising sale; secondary-market swaps are separate.
 
 ## Current holder distribution
 
-As of 30 July 2026, the deployer address holds 1,000,000 FATE, representing 100% of the fixed supply. No distribution beyond the initial mint has occurred.
+The 30 July 2026 disclosure recorded the deployer holding 1,000,000 FATE (100% of supply). That is a historical snapshot, not a current balance. On 31 August 2026, GeckoTerminal displayed 8 holder addresses. Address count does not establish the number of independent people or wallet ownership. See the [current holder balances on BscScan](https://bscscan.com/token/0xFdC6b6B49B71151e813ac2F7A3d07c06BC5B62CB#balances).
 
 ## Current token function
 
