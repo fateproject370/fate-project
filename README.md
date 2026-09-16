@@ -45,15 +45,26 @@ It does not transfer tokens, request token approval, request message signatures,
 
 ## Existing public tools
 
+### Android apps · listings checked 16 September 2026
+
+- [Cost & Profit on RuStore](https://www.rustore.ru/catalog/app/com.fateproject.costandprofit) — version 0.5.2. Product and recipe costing, selling prices, profit, margin, markup and portion/batch calculations.
+- [Genesis Business on RuStore](https://www.rustore.ru/catalog/app/com.fateproject.genesis) — version 0.2.2. AI-assisted review of business decisions, facts, assumptions, risks and alternative scenarios.
+
+Both are published by [FATE Project](https://www.rustore.ru/catalog/developer/j4cdl0). Neither app currently integrates the FATE token. Check the listings and apps for current advertising, purchase and access terms.
+
+### Telegram tools
+
 These Telegram bots are existing public ecosystem tools. They are not currently integrated with the FATE token:
 
 - [Coin of Fate](https://t.me/monetka_sudby_bot) — public beta.
 - [World Capitals](https://t.me/capitals_world_game_bot) — public tool.
 - [Margin Calculator](https://t.me/margin_business_bot) — public tool.
 
-## In development
+Bots may include paid features using Telegram Stars. Check the current terms in each bot.
 
-Cost & Profit is an Android application currently in development. It is intended as a practical calculation tool for small businesses and food-service operators. No release date or token integration is claimed.
+## Ongoing development
+
+Further work focuses on product quality, user feedback and evaluating practical token integrations. Proposed integrations remain subject to technical and legal review; no delivery date is promised. Publishing the apps does not create holder rewards or revenue-sharing rights.
 
 ## Planned directions
 
@@ -75,6 +86,7 @@ Ruslan Guliev is the Founder and Project Lead. FATE Project is currently indepen
 - Token transparency: [fateproject.ru/token-transparency.html](https://fateproject.ru/token-transparency.html)
 - GitHub: [fateproject370/fate-project](https://github.com/fateproject370/fate-project)
 - Telegram: [fateproject_official](https://t.me/fateproject_official)
+- X: [FateProject370](https://x.com/FateProject370)
 - LinkedIn: [Ruslan Guliev](https://www.linkedin.com/in/ruslan-guliev-fate)
 - Email: [contact@fateproject.ru](mailto:contact@fateproject.ru)
 - BscScan token page: [FATE token](https://bscscan.com/token/0xFdC6b6B49B71151e813ac2F7A3d07c06BC5B62CB)
