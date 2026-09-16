@@ -1,6 +1,6 @@
 # FATE Project Roadmap
 
-Last updated: 30 July 2026
+Last updated: 16 September 2026
 
 This roadmap separates current work from future plans. It does not state guaranteed delivery dates or outcomes.
 
@@ -12,7 +12,10 @@ This roadmap separates current work from future plans. It does not state guarant
 - Official Telegram channel.
 - Public ecosystem tools: Coin of Fate, World Capitals and Margin Calculator.
 - Read-only FATE holder verification beta.
-- Cost & Profit Android application development.
+- [Cost & Profit](https://www.rustore.ru/catalog/app/com.fateproject.costandprofit) published on RuStore; version 0.5.2 checked 16 September 2026.
+- [Genesis Business](https://www.rustore.ru/catalog/app/com.fateproject.genesis) published on RuStore; version 0.2.2 checked 16 September 2026.
+
+The apps and Telegram bots do not currently integrate the FATE token. Telegram Stars payments are not FATE payments.
 
 ## Next
 

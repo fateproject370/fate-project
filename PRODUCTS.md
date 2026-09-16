@@ -1,10 +1,30 @@
 # FATE Project Products
 
-Last updated: 30 July 2026
+Last updated: 16 September 2026
+
+## Published Android Apps
+
+Store listings and versions checked on 16 September 2026. Both apps are published by [FATE Project on RuStore](https://www.rustore.ru/catalog/developer/j4cdl0). Neither app currently integrates the FATE token.
+
+### Cost & Profit · Version 0.5.2
+
+Product and recipe costing, selling prices, profit, margin, markup and portion/batch calculations for small businesses and food-service operators.
+
+[Get Cost & Profit on RuStore](https://www.rustore.ru/catalog/app/com.fateproject.costandprofit)
+
+### Genesis Business · Version 0.2.2
+
+AI-assisted review of business decisions, facts, assumptions, risks and alternative scenarios. The user makes the final decision.
+
+[Get Genesis Business on RuStore](https://www.rustore.ru/catalog/app/com.fateproject.genesis)
+
+See each store listing and app for current advertising, purchase and access terms. Publication does not create holder rewards or revenue-sharing rights.
 
 ## Available / Public Beta
 
 The Telegram bots in this category are existing public ecosystem tools and are not currently integrated with the FATE token. Holder Verification is the only current token-related function.
+
+Bots may include paid features using Telegram Stars. Check the current terms in each bot.
 
 ### FATE Holder Verification
 
@@ -30,11 +50,9 @@ A public Telegram tool. Not currently integrated with the FATE token.
 
 [Open Margin Calculator](https://t.me/margin_business_bot)
 
-## In Development
+## Ongoing Development
 
-### Cost & Profit
-
-An Android application currently in development as a practical calculation tool for small businesses and food-service operators. It is not presented as available for download, and no release date or token integration is claimed.
+Further work focuses on product quality, user feedback and evaluating practical token integrations. Proposed integrations remain subject to technical and legal review; no delivery date is promised.
 
 ## Planned
 

@@ -1,5 +1,16 @@
 # Changelog
 
+## Version 1.2 product status update
+
+Date: 16 September 2026
+
+- Updated the homepage, product catalogue, Litepaper, README, PRODUCTS and ROADMAP to reflect the published Cost & Profit and Genesis Business apps.
+- Added direct RuStore links and the developer catalogue; verified displayed versions 0.5.2 and 0.2.2 respectively on 16 September 2026.
+- Removed obsolete statements that Cost & Profit is unavailable for download.
+- Clarified that app and bot availability does not establish FATE integration, holder rewards or revenue sharing; bot paid features may use Telegram Stars.
+- Added the existing official X link to the Litepaper and README for consistency with the homepage.
+- Revised the Litepaper to version 1.2. Historical market figures keep their original 31 August 2026 date; this update is not a new market, contract, wallet or payment audit.
+
 ## Version 1.1 market disclosure correction
 
 Date: 31 August 2026
