@@ -43,17 +43,20 @@ The first public token-related function is the [FATE Holder Verification beta](h
 
 It does not transfer tokens, request token approval, request message signatures, access private keys, award tokens, promise rewards, or provide financial returns. Wallet addresses and balances are not stored by FATE Project.
 
-## Existing public tools
+## Existing public products
 
 These Telegram bots are existing public ecosystem tools. They are not currently integrated with the FATE token:
 
-- [Coin of Fate](https://t.me/monetka_sudby_bot) — public beta.
-- [World Capitals](https://t.me/capitals_world_game_bot) — public tool.
-- [Margin Calculator](https://t.me/margin_business_bot) — public tool.
+- [Монетка судьбы | Fate Coin](https://t.me/monetka_sudby_bot) — public Telegram bot.
+- [Столицы мира | World Capitals](https://t.me/capitals_world_game_bot) — public Telegram bot.
+- [Калькулятор маржинальности | Margin Bot](https://t.me/margin_business_bot) — public Telegram bot.
 
-## In development
+Published Android products:
 
-Cost & Profit is an Android application currently in development. It is intended as a practical calculation tool for small businesses and food-service operators. No release date or token integration is claimed.
+- [Cost & Profit](https://www.rustore.ru/catalog/app/com.fateproject.costandprofit) — published in RuStore by FATE Project. Public version 0.5.2 as of 5 September 2026.
+- [Genesis Business](https://www.rustore.ru/catalog/app/com.fateproject.genesis) — published in RuStore by FATE Project. Public version 0.2.2 as of 8 September 2026.
+
+The Telegram bots and these Android products are not currently claimed as FATE token integrations. RUDAR remains an active development project and is not presented as a production-ready or commercially available product.
 
 ## Planned directions
 

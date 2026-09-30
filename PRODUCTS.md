@@ -1,10 +1,10 @@
 # FATE Project Products
 
-Last updated: 30 July 2026
+Last updated: 30 September 2026
 
 ## Available / Public Beta
 
-The Telegram bots in this category are existing public ecosystem tools and are not currently integrated with the FATE token. Holder Verification is the only current token-related function.
+The Telegram bots and published Android apps in this category are existing public ecosystem products. They are not currently claimed as integrated with the FATE token. Holder Verification is the only current token-related function.
 
 ### FATE Holder Verification
 
@@ -12,29 +12,49 @@ A token-related read-only balance verification beta. It uses the connected brows
 
 [Open FATE Holder Verification](https://fateproject.ru/holder-verification.html)
 
-### Coin of Fate
+### Монетка судьбы | Fate Coin
 
-A public Telegram beta. Not currently integrated with the FATE token.
+A public Telegram bot. Not currently integrated with the FATE token.
 
-[Open Coin of Fate](https://t.me/monetka_sudby_bot)
+[Open Монетка судьбы | Fate Coin](https://t.me/monetka_sudby_bot)
 
-### World Capitals
+### Столицы мира | World Capitals
 
-A public Telegram tool. Not currently integrated with the FATE token.
+A public Telegram bot. Not currently integrated with the FATE token.
 
-[Open World Capitals](https://t.me/capitals_world_game_bot)
+[Open Столицы мира | World Capitals](https://t.me/capitals_world_game_bot)
 
-### Margin Calculator
+### Калькулятор маржинальности | Margin Bot
 
-A public Telegram tool. Not currently integrated with the FATE token.
+A public Telegram bot. Not currently integrated with the FATE token.
 
-[Open Margin Calculator](https://t.me/margin_business_bot)
-
-## In Development
+[Open Калькулятор маржинальности | Margin Bot](https://t.me/margin_business_bot)
 
 ### Cost & Profit
 
-An Android application currently in development as a practical calculation tool for small businesses and food-service operators. It is not presented as available for download, and no release date or token integration is claimed.
+A published Android calculator for entrepreneurs, small businesses and food-service operators. It supports cost, profit and margin calculations and is available in RuStore from FATE Project.
+
+Public version: 0.5.2, updated 5 September 2026.
+
+[Open Cost & Profit in RuStore](https://www.rustore.ru/catalog/app/com.fateproject.costandprofit)
+
+No FATE token integration is currently claimed.
+
+### Genesis Business
+
+A published Android AI-assisted tool for business-decision analysis. It helps structure facts, assumptions, risks and alternative scenarios and is available in RuStore from FATE Project.
+
+Public version: 0.2.2, updated 8 September 2026.
+
+[Open Genesis Business in RuStore](https://www.rustore.ru/catalog/app/com.fateproject.genesis)
+
+No FATE token integration is currently claimed.
+
+## In Development
+
+### RUDAR
+
+RUDAR is an active development project. It is not presented as finished, production-ready or available for commercial deployment.
 
 ## Planned
 
