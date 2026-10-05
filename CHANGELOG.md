@@ -1,5 +1,16 @@
 # Changelog
 
+## Version 1.2 product and liquidity disclosure update
+
+Date: 5 October 2026
+
+- Updated the public liquidity snapshot after rebalancing project-controlled PancakeSwap V3 positions.
+- Recorded primary position #7623226 at approximately 0.062999 BNB plus 19,322.6 FATE and a second full-range position #7155105, with about $51.18 displayed across both at the time of observation.
+- Updated Litepaper product status: Cost & Profit and Genesis Business are published; RUDAR remains in development.
+- Added the official X account to public project references where it was missing.
+- Updated the roadmap to match current public products, liquidity and development status.
+- Kept dated figures explicitly labeled as snapshots; no return, price or demand claims are added.
+
 ## Version 1.1 market disclosure correction
 
 Date: 31 August 2026
