@@ -1,6 +1,6 @@
 # FATE Token Status
 
-Market and holder disclosure updated: 31 August 2026
+Market and liquidity disclosure updated: 5 October 2026
 
 ## Identity and contract
 
@@ -40,10 +40,10 @@ The 30 July 2026 disclosure recorded the deployer holding 1,000,000 FATE (100% o
 
 - FATE/WBNB pool: [PancakeSwap V3, tracked on GeckoTerminal](https://www.geckoterminal.com/bsc/pools/0xa7a3ce397dcbb9fc66b28145e77b16728c23768c).
 - Centralized exchange listing: not confirmed. A DEX pool does not imply a centralized exchange listing or endorsement.
-- Displayed pool price in the 31 August 2026 snapshot: $0.001973. It is not a guaranteed execution or exit price.
+- Project-controlled PancakeSwap V3 liquidity was rebalanced on 5 October 2026; third-party price and liquidity displays may update with delay.
 - No financial return, yield, price increase or profit is promised.
 
-Observed on 31 August 2026 on [GeckoTerminal](https://www.geckoterminal.com/bsc/pools/0xa7a3ce397dcbb9fc66b28145e77b16728c23768c): 8 holder addresses, approximately $33.25 liquidity, $0 volume over the preceding 24 hours, 0 buys and 0 sells. These are dated third-party figures, not a live feed or proof of independent demand. Earlier trades are visible in the pool history.
+Observed on 5 October 2026 in the project's PancakeSwap V3 positions for the FATE/WBNB pool: the primary active position (#7623226) held approximately 0.062999 BNB (wrapped as WBNB in the pool) and 19,322.6 FATE and was displayed at about $49.99; a second full-range position (#7155105) was displayed at about $1.19. Combined project-controlled active liquidity was therefore displayed at approximately $51.18. These are dated interface figures rather than a live market feed. The 31 August GeckoTerminal snapshot remains historical context for holder-count and prior market activity.
 
 No project token sale means no presale or fundraising sale; secondary-market swaps are separate.
 
@@ -71,4 +71,4 @@ The beta does not transfer tokens, request token approval, request a message sig
 
 ## Disclaimer
 
-FATE is not an investment product, financial instrument, security or guaranteed source of income. The market and holder figures above are a dated third-party snapshot observed on 31 August 2026; contract and product statements have not been newly audited in this update. This document is not financial, investment, legal, tax or professional advice.
+FATE is not an investment product, financial instrument, security or guaranteed source of income. The liquidity figures above are a dated project-controlled PancakeSwap V3 snapshot observed on 5 October 2026; holder-count information from 31 August remains historical context. This document is not financial, investment, legal, tax or professional advice.
