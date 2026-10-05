@@ -19,17 +19,17 @@ FATE Project is a founder-led digital project developing practical software tool
 
 The complete supply was minted once during deployment. The deployed contract exposes no public or external mint function, no public burn function, and no owner or administrator role. It is not Ownable. The ABI contains standard ERC-20 functionality, and no additional supply can be minted through the deployed contract.
 
-## Token status · market snapshot observed 31 August 2026
+## Token status · liquidity snapshot observed 5 October 2026
 
 - No public token sale has occurred.
 - No private token sale has occurred.
 - No presale, ICO, IEO, launchpad sale or fundraising round has occurred.
 - FATE/WBNB pool: [PancakeSwap V3, tracked on GeckoTerminal](https://www.geckoterminal.com/bsc/pools/0xa7a3ce397dcbb9fc66b28145e77b16728c23768c).
 - Centralized exchange listing: not confirmed. A DEX pool does not imply a centralized exchange listing or endorsement.
-- Displayed pool price in the 31 August 2026 snapshot: $0.001973. It is not a guaranteed execution or exit price.
+- Project-controlled PancakeSwap V3 liquidity was rebalanced on 5 October 2026; see the dated snapshot below.
 - No financial return, yield, price increase or profit is promised.
 
-Observed on 31 August 2026 on [GeckoTerminal](https://www.geckoterminal.com/bsc/pools/0xa7a3ce397dcbb9fc66b28145e77b16728c23768c): 8 holder addresses, approximately $33.25 liquidity, $0 volume over the preceding 24 hours, 0 buys and 0 sells. These are dated third-party figures, not a live feed or proof of independent demand. Earlier trades are visible in the pool history.
+Observed on 5 October 2026 in the project's PancakeSwap V3 positions for the FATE/WBNB pool: the primary active position (#7623226) held approximately 0.062999 BNB (wrapped as WBNB in the pool) and 19,322.6 FATE and was displayed at about $49.99; a second full-range position (#7155105) was displayed at about $1.19. Combined project-controlled active liquidity was therefore displayed at approximately $51.18. These are dated interface figures, not a live feed, and third-party trackers may update with delay.
 
 No project token sale means no presale or fundraising sale; secondary-market swaps are separate.
 
@@ -78,6 +78,7 @@ Ruslan Guliev is the Founder and Project Lead. FATE Project is currently indepen
 - Token transparency: [fateproject.ru/token-transparency.html](https://fateproject.ru/token-transparency.html)
 - GitHub: [fateproject370/fate-project](https://github.com/fateproject370/fate-project)
 - Telegram: [fateproject_official](https://t.me/fateproject_official)
+- X: [FateProject370](https://x.com/FateProject370)
 - LinkedIn: [Ruslan Guliev](https://www.linkedin.com/in/ruslan-guliev-fate)
 - Email: [contact@fateproject.ru](mailto:contact@fateproject.ru)
 - BscScan token page: [FATE token](https://bscscan.com/token/0xFdC6b6B49B71151e813ac2F7A3d07c06BC5B62CB)
