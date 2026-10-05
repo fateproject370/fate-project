@@ -2,18 +2,19 @@
 
 Review each item immediately before a submission:
 
-- [ ] Site availability
+- [x] Site availability
 - [x] Litepaper
 - [x] Token transparency
 - [x] Founder page
-- [ ] Holder verification
-- [ ] GitHub
-- [ ] Telegram
-- [ ] LinkedIn
-- [ ] Official email
+- [x] Holder verification
+- [x] GitHub
+- [x] Telegram
+- [x] X / Twitter
+- [x] LinkedIn
+- [x] Official email
 - [x] Contract address
 - [x] Deployer address
-- [ ] Logo URL
+- [x] Logo URL
 - [ ] Mobile view
 - [ ] All external links
 - [x] No placeholders
