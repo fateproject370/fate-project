@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://fateproject.ru/</loc></url>
-  <url><loc>https://fateproject.ru/litepaper.html</loc></url>
-  <url><loc>https://fateproject.ru/token-transparency.html</loc></url>
+  <url><loc>https://fateproject.ru/</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://fateproject.ru/litepaper.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://fateproject.ru/token-transparency.html</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://fateproject.ru/holder-verification.html</loc></url>
-  <url><loc>https://fateproject.ru/products.html</loc></url>
-  <url><loc>https://fateproject.ru/founder.html</loc></url>
+  <url><loc>https://fateproject.ru/products.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://fateproject.ru/founder.html</loc><lastmod>2026-10-05</lastmod></url>
 </urlset>
