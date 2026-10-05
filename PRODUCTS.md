@@ -1,6 +1,6 @@
 # FATE Project Products
 
-Last updated: 30 September 2026
+Last updated: 5 October 2026
 
 ## Available / Public Beta
 
