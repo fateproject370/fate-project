@@ -44,7 +44,7 @@ No FATE token integration is currently claimed.
 
 A published Android AI-assisted tool for business-decision analysis. It helps structure facts, assumptions, risks and alternative scenarios and is available in RuStore from FATE Project.
 
-Public version: 0.2.2, updated 13 September 2026.
+Public version: 0.2.2, updated 8 September 2026.
 
 [Open Genesis Business in RuStore](https://www.rustore.ru/catalog/app/com.fateproject.genesis)
 
