@@ -1,6 +1,6 @@
 # FATE Project Products
 
-Last updated: 5 October 2026
+Last updated: 9 October 2026
 
 ## Available / Public Beta
 
@@ -34,7 +34,7 @@ A public Telegram bot. Not currently integrated with the FATE token.
 
 A published Android calculator for entrepreneurs, small businesses and food-service operators. It supports cost, profit and margin calculations and is available in RuStore from FATE Project.
 
-Public version: 0.5.2, updated 5 September 2026.
+Public version: 0.5.3, updated 8 October 2026.
 
 [Open Cost & Profit in RuStore](https://www.rustore.ru/catalog/app/com.fateproject.costandprofit)
 
