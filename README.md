@@ -53,7 +53,7 @@ These Telegram bots are existing public ecosystem tools. They are not currently 
 
 Published Android products:
 
-- [Cost & Profit](https://www.rustore.ru/catalog/app/com.fateproject.costandprofit) — published in RuStore by FATE Project. Public version 0.5.2 as of 5 September 2026.
+- [Cost & Profit](https://www.rustore.ru/catalog/app/com.fateproject.costandprofit) — published in RuStore by FATE Project. Public version 0.5.3 as of 8 October 2026.
 - [Genesis Business](https://www.rustore.ru/catalog/app/com.fateproject.genesis) — published in RuStore by FATE Project. Public version 0.2.3 as of 1 October 2026.
 
 The Telegram bots and these Android products are not currently claimed as FATE token integrations. RUDAR remains an active development project and is not presented as a production-ready or commercially available product.
