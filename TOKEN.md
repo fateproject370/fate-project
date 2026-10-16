@@ -38,7 +38,9 @@ The 30 July 2026 disclosure recorded the deployer holding 1,000,000 FATE (100% o
 
 ## Liquidity and trading status
 
-- FATE/WBNB pool: [PancakeSwap V3, tracked on GeckoTerminal](https://www.geckoterminal.com/bsc/pools/0xa7a3ce397dcbb9fc66b28145e77b16728c23768c).
+**Link check (16 October 2026):** The previously published GeckoTerminal pool URL returned 404. It was removed rather than replaced with an unverified FATE-ticker pool; liquidity amounts below remain dated 5 October historical observations.
+
+- FATE/WBNB pool: PancakeSwap V3 (external tracker URL removed; pool address pending verification).
 - Centralized exchange listing: not confirmed. A DEX pool does not imply a centralized exchange listing or endorsement.
 - Project-controlled PancakeSwap V3 liquidity was rebalanced on 5 October 2026; third-party price and liquidity displays may update with delay.
 - No financial return, yield, price increase or profit is promised.
