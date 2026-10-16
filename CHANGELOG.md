@@ -1,5 +1,14 @@
 # Changelog
 
+## Broken liquidity-tracker link cleanup
+
+Date: 16 October 2026
+
+- Removed the non-working FATE/WBNB GeckoTerminal pool URL (HTTP 404) from the public website, litepaper and repository documentation.
+- Removed the corresponding unverified DEX Screener pool link rather than presenting a potentially unrelated pool.
+- Preserved project-controlled PancakeSwap V3 liquidity figures only as historical 5 October 2026 observations, explicitly distinguishing them from live liquidity.
+- Did not change token contracts, liquidity positions, prices, on-chain operations, or published application versions.
+
 ## Version 1.2 product and liquidity disclosure update
 
 Date: 5 October 2026
