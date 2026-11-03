@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>World Capitals Quiz — Test Yourself on 192 Countries + List of All Capitals</title>
-  <meta name="description" content="Free world capitals quiz: 10 questions, 192 countries. Plus the full list of capital cities by continent and a Telegram game to play with friends.">
+  <title>World Capitals Quiz — Test Yourself on 191 Countries + List of All Capitals</title>
+  <meta name="description" content="Free world capitals quiz: 10 questions, 191 countries. Plus the full list of capital cities by continent and a Telegram game to play with friends.">
   <link rel="canonical" href="https://fateproject.ru/en/world-capitals-quiz.html">
   <link rel="alternate" hreflang="ru" href="https://fateproject.ru/stolitsy-mira-test.html">
   <link rel="alternate" hreflang="en" href="https://fateproject.ru/en/world-capitals-quiz.html">
@@ -12,8 +12,8 @@
   <link rel="icon" href="/assets/images/fate-token-logo-32.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="World Capitals Quiz — Test Yourself on 192 Countries + List of All Capitals">
-  <meta property="og:description" content="Free world capitals quiz: 10 questions, 192 countries. Plus the full list of capital cities by continent and a Telegram game to play with friends.">
+  <meta property="og:title" content="World Capitals Quiz — Test Yourself on 191 Countries + List of All Capitals">
+  <meta property="og:description" content="Free world capitals quiz: 10 questions, 191 countries. Plus the full list of capital cities by continent and a Telegram game to play with friends.">
   <meta property="og:url" content="https://fateproject.ru/en/world-capitals-quiz.html">
   <meta property="og:image" content="https://fateproject.ru/assets/images/fate-project-logo.png">
   <link rel="stylesheet" href="/assets/css/styles.css">
@@ -78,7 +78,7 @@
       "name": "How many countries are in the quiz?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "192 countries from every continent. Each round has 10 random questions, and the wrong options are capitals from the same continent, so it isn't too easy."
+        "text": "191 countries from every continent. Each round has 10 random questions, and the wrong options are capitals from the same continent, so it isn't too easy."
       }
     },
     {
@@ -107,6 +107,34 @@
     }
   ]
 }
+  </script>
+  <style>
+    .quiz-q, table.list td { font-family: "Twemoji Country Flags", Inter, ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+  <script>
+  (function () {
+    try {
+      function px(ctx, t, c) { ctx.clearRect(0, 0, 100, 100); ctx.fillStyle = c; ctx.fillText(t, 0, 0);
+        return ctx.getImageData(0, 0, 1, 1).data.join(","); }
+      function colour(t) {
+        var cv = document.createElement("canvas"); cv.width = cv.height = 1;
+        var ctx = cv.getContext("2d", { willReadFrequently: true });
+        ctx.textBaseline = "top";
+        ctx.font = '100px "Twemoji Mozilla","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji","EmojiOne Color","Android Emoji",sans-serif';
+        ctx.scale(0.01, 0.01);
+        var w = px(ctx, t, "#fff"), b = px(ctx, t, "#000");
+        return w === b && b.indexOf("0,0,0,") !== 0;
+      }
+      if (colour("😊") && !colour("🇨🇭")) {
+        var s = document.createElement("style");
+        s.textContent = '@font-face { font-family: "Twemoji Country Flags"; ' +
+          'unicode-range: U+1F1E6-1F1FF, U+1F3F4, U+E0062-E0063, U+E0065, U+E0067, U+E006C, U+E006E, U+E0073-E0074, U+E0077, U+E007F; ' +
+          'src: url("/assets/fonts/TwemojiCountryFlags.woff") format("woff"); font-display: swap; }';
+        document.head.appendChild(s);
+      }
+    } catch (e) {}
+  })();
   </script>
 </head>
 <body>
@@ -182,10 +210,10 @@
             <tr><td>🇲🇩 Moldova</td><td>Chisinau</td></tr>
             <tr><td>🇲🇨 Monaco</td><td>Monaco</td></tr>
             <tr><td>🇳🇱 Netherlands</td><td>Amsterdam</td></tr>
+            <tr><td>🇲🇰 North Macedonia</td><td>Skopje</td></tr>
             <tr><td>🇳🇴 Norway</td><td>Oslo</td></tr>
             <tr><td>🇵🇱 Poland</td><td>Warsaw</td></tr>
             <tr><td>🇵🇹 Portugal</td><td>Lisbon</td></tr>
-            <tr><td>🇲🇰 Republic of Macedonia</td><td>Skopje</td></tr>
             <tr><td>🇷🇴 Romania</td><td>Bucharest</td></tr>
             <tr><td>🇷🇺 Russia</td><td>Moscow</td></tr>
             <tr><td>🇸🇲 San Marino</td><td>San Marino</td></tr>
@@ -201,7 +229,7 @@
         </table>
       </details>
       <details class="card continent">
-        <summary>Asia — 47 countries</summary>
+        <summary>Asia — 46 countries</summary>
         <table class="list">
           <thead><tr><th>Country</th><th>Capital</th></tr></thead>
           <tbody>
@@ -216,7 +244,6 @@
             <tr><td>🇨🇳 China</td><td>Beijing</td></tr>
             <tr><td>🇹🇱 East Timor</td><td>Dili</td></tr>
             <tr><td>🇬🇪 Georgia</td><td>Tbilisi</td></tr>
-            <tr><td>🇭🇰 Hong Kong</td><td>City of Victoria</td></tr>
             <tr><td>🇮🇳 India</td><td>New Delhi</td></tr>
             <tr><td>🇮🇩 Indonesia</td><td>Jakarta</td></tr>
             <tr><td>🇮🇷 Iran</td><td>Tehran</td></tr>
@@ -276,6 +303,7 @@
             <tr><td>🇪🇬 Egypt</td><td>Cairo</td></tr>
             <tr><td>🇬🇶 Equatorial Guinea</td><td>Malabo</td></tr>
             <tr><td>🇪🇷 Eritrea</td><td>Asmara</td></tr>
+            <tr><td>🇸🇿 Eswatini</td><td>Lobamba</td></tr>
             <tr><td>🇪🇹 Ethiopia</td><td>Addis Ababa</td></tr>
             <tr><td>🇬🇦 Gabon</td><td>Libreville</td></tr>
             <tr><td>🇬🇭 Ghana</td><td>Accra</td></tr>
@@ -305,7 +333,6 @@
             <tr><td>🇿🇦 South Africa</td><td>Pretoria</td></tr>
             <tr><td>🇸🇸 South Sudan</td><td>Juba</td></tr>
             <tr><td>🇸🇩 Sudan</td><td>Khartoum</td></tr>
-            <tr><td>🇸🇿 Swaziland</td><td>Lobamba</td></tr>
             <tr><td>🇸🇹 São Tomé and Príncipe</td><td>São Tomé</td></tr>
             <tr><td>🇹🇿 Tanzania</td><td>Dodoma</td></tr>
             <tr><td>🇬🇲 The Gambia</td><td>Banjul</td></tr>
@@ -395,7 +422,7 @@
       <h2 id="faq-title">Frequently asked questions</h2>
       <details class="card" style="margin-bottom:12px">
         <summary><strong>How many countries are in the quiz?</strong></summary>
-        <p style="margin-top:10px">192 countries from every continent. Each round has 10 random questions, and the wrong options are capitals from the same continent, so it isn&#x27;t too easy.</p>
+        <p style="margin-top:10px">191 countries from every continent. Each round has 10 random questions, and the wrong options are capitals from the same continent, so it isn&#x27;t too easy.</p>
       </details>
       <details class="card" style="margin-bottom:12px">
         <summary><strong>Can I play with friends?</strong></summary>
@@ -415,12 +442,13 @@
     <div class="footer-shell">
       <p>FATE Project · Free tools: <a href="/en/margin-calculator.html">Margin calculator</a> · <a href="/en/world-capitals-quiz.html">World capitals quiz</a> · <a href="/en/coin-flip.html">Flip a coin</a></p>
       <p>Telegram bots: <a href="https://t.me/margin_business_bot?start=site_en_footer">margin calculator</a> · <a href="https://t.me/capitals_world_game_bot?start=site_en_footer">world capitals</a> · <a href="https://t.me/monetka_sudby_bot?start=site_en_footer">coin flip</a> · <a href="mailto:contact@fateproject.ru">contact@fateproject.ru</a></p>
+      <p>Flags on Windows: <a href="https://github.com/twitter/twemoji">Twemoji</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
     </div>
   </footer>
 
   <script>
   (function () {
-    var D = [["🇩🇿","Algeria","Algiers","africa"],["🇦🇴","Angola","Luanda","africa"],["🇧🇯","Benin","Porto-Novo","africa"],["🇧🇼","Botswana","Gaborone","africa"],["🇧🇫","Burkina Faso","Ouagadougou","africa"],["🇧🇮","Burundi","Bujumbura","africa"],["🇬🇦","Gabon","Libreville","africa"],["🇬🇲","The Gambia","Banjul","africa"],["🇬🇭","Ghana","Accra","africa"],["🇬🇳","Guinea","Conakry","africa"],["🇬🇼","Guinea-Bissau","Bissau","africa"],["🇨🇩","Democratic Republic of the Congo","Kinshasa","africa"],["🇩🇯","Djibouti","Djibouti","africa"],["🇪🇬","Egypt","Cairo","africa"],["🇿🇲","Zambia","Lusaka","africa"],["🇿🇼","Zimbabwe","Harare","africa"],["🇨🇻","Cape Verde","Praia","africa"],["🇨🇲","Cameroon","Yaoundé","africa"],["🇰🇪","Kenya","Nairobi","africa"],["🇰🇲","Comoros","Moroni","africa"],["🇨🇮","Ivory Coast","Yamoussoukro","africa"],["🇱🇸","Lesotho","Maseru","africa"],["🇱🇷","Liberia","Monrovia","africa"],["🇱🇾","Libya","Tripoli","africa"],["🇲🇺","Mauritius","Port Louis","africa"],["🇲🇷","Mauritania","Nouakchott","africa"],["🇲🇬","Madagascar","Antananarivo","africa"],["🇲🇼","Malawi","Lilongwe","africa"],["🇲🇱","Mali","Bamako","africa"],["🇲🇦","Morocco","Rabat","africa"],["🇲🇿","Mozambique","Maputo","africa"],["🇳🇦","Namibia","Windhoek","africa"],["🇳🇪","Niger","Niamey","africa"],["🇳🇬","Nigeria","Abuja","africa"],["🇨🇬","Republic of the Congo","Brazzaville","africa"],["🇷🇼","Rwanda","Kigali","africa"],["🇸🇹","São Tomé and Príncipe","São Tomé","africa"],["🇸🇨","Seychelles","Victoria","africa"],["🇸🇳","Senegal","Dakar","africa"],["🇸🇴","Somalia","Mogadishu","africa"],["🇸🇩","Sudan","Khartoum","africa"],["🇸🇱","Sierra Leone","Freetown","africa"],["🇹🇿","Tanzania","Dodoma","africa"],["🇹🇬","Togo","Lomé","africa"],["🇹🇳","Tunisia","Tunis","africa"],["🇺🇬","Uganda","Kampala","africa"],["🇨🇫","Central African Republic","Bangui","africa"],["🇹🇩","Chad","N'Djamena","africa"],["🇬🇶","Equatorial Guinea","Malabo","africa"],["🇪🇷","Eritrea","Asmara","africa"],["🇸🇿","Swaziland","Lobamba","africa"],["🇪🇹","Ethiopia","Addis Ababa","africa"],["🇿🇦","South Africa","Pretoria","africa"],["🇸🇸","South Sudan","Juba","africa"],["🇦🇿","Azerbaijan","Baku","asia"],["🇦🇲","Armenia","Yerevan","asia"],["🇦🇫","Afghanistan","Kabul","asia"],["🇧🇩","Bangladesh","Dhaka","asia"],["🇧🇭","Bahrain","Manama","asia"],["🇧🇳","Brunei","Bandar Seri Begawan","asia"],["🇧🇹","Bhutan","Thimphu","asia"],["🇹🇱","East Timor","Dili","asia"],["🇻🇳","Vietnam","Hanoi","asia"],["🇭🇰","Hong Kong","City of Victoria","asia"],["🇬🇪","Georgia","Tbilisi","asia"],["🇮🇱","Israel","Jerusalem","asia"],["🇮🇳","India","New Delhi","asia"],["🇮🇩","Indonesia","Jakarta","asia"],["🇯🇴","Jordan","Amman","asia"],["🇮🇶","Iraq","Baghdad","asia"],["🇮🇷","Iran","Tehran","asia"],["🇾🇪","Yemen","Sana'a","asia"],["🇰🇿","Kazakhstan","Astana","asia"],["🇰🇭","Cambodia","Phnom Penh","asia"],["🇶🇦","Qatar","Doha","asia"],["🇰🇬","Kyrgyzstan","Bishkek","asia"],["🇨🇳","China","Beijing","asia"],["🇰🇼","Kuwait","Kuwait City","asia"],["🇱🇦","Laos","Vientiane","asia"],["🇱🇧","Lebanon","Beirut","asia"],["🇲🇾","Malaysia","Kuala Lumpur","asia"],["🇲🇻","Maldives","Malé","asia"],["🇲🇳","Mongolia","Ulan Bator","asia"],["🇳🇵","Nepal","Kathmandu","asia"],["🇦🇪","United Arab Emirates","Abu Dhabi","asia"],["🇴🇲","Oman","Muscat","asia"],["🇵🇰","Pakistan","Islamabad","asia"],["🇸🇦","Saudi Arabia","Riyadh","asia"],["🇰🇵","North Korea","Pyongyang","asia"],["🇸🇬","Singapore","Singapore","asia"],["🇸🇾","Syria","Damascus","asia"],["🇹🇯","Tajikistan","Dushanbe","asia"],["🇹🇭","Thailand","Bangkok","asia"],["🇹🇼","Taiwan","Taipei","asia"],["🇹🇲","Turkmenistan","Ashgabat","asia"],["🇹🇷","Turkey","Ankara","asia"],["🇺🇿","Uzbekistan","Tashkent","asia"],["🇵🇭","Philippines","Manila","asia"],["🇱🇰","Sri Lanka","Colombo","asia"],["🇰🇷","South Korea","Seoul","asia"],["🇯🇵","Japan","Tokyo","asia"],["🇦🇹","Austria","Vienna","europe"],["🇦🇱","Albania","Tirana","europe"],["🇧🇾","Belarus","Minsk","europe"],["🇧🇪","Belgium","Brussels","europe"],["🇧🇬","Bulgaria","Sofia","europe"],["🇧🇦","Bosnia and Herzegovina","Sarajevo","europe"],["🇬🇧","United Kingdom","London","europe"],["🇭🇺","Hungary","Budapest","europe"],["🇩🇪","Germany","Berlin","europe"],["🇬🇷","Greece","Athens","europe"],["🇩🇰","Denmark","Copenhagen","europe"],["🇮🇪","Ireland","Dublin","europe"],["🇮🇸","Iceland","Reykjavik","europe"],["🇪🇸","Spain","Madrid","europe"],["🇮🇹","Italy","Rome","europe"],["🇨🇾","Cyprus","Nicosia","europe"],["🇱🇻","Latvia","Riga","europe"],["🇱🇹","Lithuania","Vilnius","europe"],["🇱🇮","Liechtenstein","Vaduz","europe"],["🇱🇺","Luxembourg","Luxembourg","europe"],["🇲🇹","Malta","Valletta","europe"],["🇲🇩","Moldova","Chisinau","europe"],["🇲🇨","Monaco","Monaco","europe"],["🇳🇱","Netherlands","Amsterdam","europe"],["🇳🇴","Norway","Oslo","europe"],["🇵🇱","Poland","Warsaw","europe"],["🇵🇹","Portugal","Lisbon","europe"],["🇷🇺","Russia","Moscow","europe"],["🇷🇴","Romania","Bucharest","europe"],["🇸🇲","San Marino","San Marino","europe"],["🇲🇰","Republic of Macedonia","Skopje","europe"],["🇷🇸","Serbia","Belgrade","europe"],["🇸🇰","Slovakia","Bratislava","europe"],["🇸🇮","Slovenia","Ljubljana","europe"],["🇺🇦","Ukraine","Kyiv","europe"],["🇫🇮","Finland","Helsinki","europe"],["🇫🇷","France","Paris","europe"],["🇭🇷","Croatia","Zagreb","europe"],["🇨🇿","Czech Republic","Prague","europe"],["🇨🇭","Switzerland","Bern","europe"],["🇸🇪","Sweden","Stockholm","europe"],["🇪🇪","Estonia","Tallinn","europe"],["🇦🇬","Antigua and Barbuda","Saint John's","north_america"],["🇧🇸","The Bahamas","Nassau","north_america"],["🇧🇧","Barbados","Bridgetown","north_america"],["🇧🇿","Belize","Belmopan","north_america"],["🇭🇹","Haiti","Port-au-Prince","north_america"],["🇬🇹","Guatemala","Guatemala City","north_america"],["🇭🇳","Honduras","Tegucigalpa","north_america"],["🇬🇩","Grenada","Saint George's","north_america"],["🇩🇲","Dominica","Roseau","north_america"],["🇩🇴","Dominican Republic","Santo Domingo","north_america"],["🇨🇦","Canada","Ottawa","north_america"],["🇨🇷","Costa Rica","San José","north_america"],["🇨🇺","Cuba","Havana","north_america"],["🇲🇽","Mexico","Mexico City","north_america"],["🇳🇮","Nicaragua","Managua","north_america"],["🇵🇦","Panama","Panama City","north_america"],["🇸🇻","El Salvador","San Salvador","north_america"],["🇻🇨","Saint Vincent and the Grenadines","Kingstown","north_america"],["🇰🇳","Saint Kitts and Nevis","Basseterre","north_america"],["🇱🇨","Saint Lucia","Castries","north_america"],["🇺🇸","United States","Washington, D.C.","north_america"],["🇹🇹","Trinidad and Tobago","Port of Spain","north_america"],["🇯🇲","Jamaica","Kingston","north_america"],["🇦🇺","Australia","Canberra","oceania"],["🇻🇺","Vanuatu","Port Vila","oceania"],["🇰🇮","Kiribati","South Tarawa","oceania"],["🇲🇭","Marshall Islands","Majuro","oceania"],["🇳🇷","Nauru","Yaren","oceania"],["🇳🇿","New Zealand","Wellington","oceania"],["🇵🇼","Palau","Ngerulmud","oceania"],["🇵🇬","Papua New Guinea","Port Moresby","oceania"],["🇼🇸","Samoa","Apia","oceania"],["🇸🇧","Solomon Islands","Honiara","oceania"],["🇹🇴","Tonga","Nuku'alofa","oceania"],["🇹🇻","Tuvalu","Funafuti","oceania"],["🇫🇲","Federated States of Micronesia","Palikir","oceania"],["🇫🇯","Fiji","Suva","oceania"],["🇦🇷","Argentina","Buenos Aires","south_america"],["🇧🇴","Bolivia","Sucre","south_america"],["🇧🇷","Brazil","Brasília","south_america"],["🇻🇪","Venezuela","Caracas","south_america"],["🇬🇾","Guyana","Georgetown","south_america"],["🇨🇴","Colombia","Bogotá","south_america"],["🇵🇾","Paraguay","Asunción","south_america"],["🇵🇪","Peru","Lima","south_america"],["🇸🇷","Suriname","Paramaribo","south_america"],["🇺🇾","Uruguay","Montevideo","south_america"],["🇨🇱","Chile","Santiago","south_america"],["🇪🇨","Ecuador","Quito","south_america"]];
+    var D = [["🇩🇿","Algeria","Algiers","africa"],["🇦🇴","Angola","Luanda","africa"],["🇧🇯","Benin","Porto-Novo","africa"],["🇧🇼","Botswana","Gaborone","africa"],["🇧🇫","Burkina Faso","Ouagadougou","africa"],["🇧🇮","Burundi","Bujumbura","africa"],["🇬🇦","Gabon","Libreville","africa"],["🇬🇲","The Gambia","Banjul","africa"],["🇬🇭","Ghana","Accra","africa"],["🇬🇳","Guinea","Conakry","africa"],["🇬🇼","Guinea-Bissau","Bissau","africa"],["🇨🇩","Democratic Republic of the Congo","Kinshasa","africa"],["🇩🇯","Djibouti","Djibouti","africa"],["🇪🇬","Egypt","Cairo","africa"],["🇿🇲","Zambia","Lusaka","africa"],["🇿🇼","Zimbabwe","Harare","africa"],["🇨🇻","Cape Verde","Praia","africa"],["🇨🇲","Cameroon","Yaoundé","africa"],["🇰🇪","Kenya","Nairobi","africa"],["🇰🇲","Comoros","Moroni","africa"],["🇨🇮","Ivory Coast","Yamoussoukro","africa"],["🇱🇸","Lesotho","Maseru","africa"],["🇱🇷","Liberia","Monrovia","africa"],["🇱🇾","Libya","Tripoli","africa"],["🇲🇺","Mauritius","Port Louis","africa"],["🇲🇷","Mauritania","Nouakchott","africa"],["🇲🇬","Madagascar","Antananarivo","africa"],["🇲🇼","Malawi","Lilongwe","africa"],["🇲🇱","Mali","Bamako","africa"],["🇲🇦","Morocco","Rabat","africa"],["🇲🇿","Mozambique","Maputo","africa"],["🇳🇦","Namibia","Windhoek","africa"],["🇳🇪","Niger","Niamey","africa"],["🇳🇬","Nigeria","Abuja","africa"],["🇨🇬","Republic of the Congo","Brazzaville","africa"],["🇷🇼","Rwanda","Kigali","africa"],["🇸🇹","São Tomé and Príncipe","São Tomé","africa"],["🇸🇨","Seychelles","Victoria","africa"],["🇸🇳","Senegal","Dakar","africa"],["🇸🇴","Somalia","Mogadishu","africa"],["🇸🇩","Sudan","Khartoum","africa"],["🇸🇱","Sierra Leone","Freetown","africa"],["🇹🇿","Tanzania","Dodoma","africa"],["🇹🇬","Togo","Lomé","africa"],["🇹🇳","Tunisia","Tunis","africa"],["🇺🇬","Uganda","Kampala","africa"],["🇨🇫","Central African Republic","Bangui","africa"],["🇹🇩","Chad","N'Djamena","africa"],["🇬🇶","Equatorial Guinea","Malabo","africa"],["🇪🇷","Eritrea","Asmara","africa"],["🇸🇿","Eswatini","Lobamba","africa"],["🇪🇹","Ethiopia","Addis Ababa","africa"],["🇿🇦","South Africa","Pretoria","africa"],["🇸🇸","South Sudan","Juba","africa"],["🇦🇿","Azerbaijan","Baku","asia"],["🇦🇲","Armenia","Yerevan","asia"],["🇦🇫","Afghanistan","Kabul","asia"],["🇧🇩","Bangladesh","Dhaka","asia"],["🇧🇭","Bahrain","Manama","asia"],["🇧🇳","Brunei","Bandar Seri Begawan","asia"],["🇧🇹","Bhutan","Thimphu","asia"],["🇹🇱","East Timor","Dili","asia"],["🇻🇳","Vietnam","Hanoi","asia"],["🇬🇪","Georgia","Tbilisi","asia"],["🇮🇱","Israel","Jerusalem","asia"],["🇮🇳","India","New Delhi","asia"],["🇮🇩","Indonesia","Jakarta","asia"],["🇯🇴","Jordan","Amman","asia"],["🇮🇶","Iraq","Baghdad","asia"],["🇮🇷","Iran","Tehran","asia"],["🇾🇪","Yemen","Sana'a","asia"],["🇰🇿","Kazakhstan","Astana","asia"],["🇰🇭","Cambodia","Phnom Penh","asia"],["🇶🇦","Qatar","Doha","asia"],["🇰🇬","Kyrgyzstan","Bishkek","asia"],["🇨🇳","China","Beijing","asia"],["🇰🇼","Kuwait","Kuwait City","asia"],["🇱🇦","Laos","Vientiane","asia"],["🇱🇧","Lebanon","Beirut","asia"],["🇲🇾","Malaysia","Kuala Lumpur","asia"],["🇲🇻","Maldives","Malé","asia"],["🇲🇳","Mongolia","Ulan Bator","asia"],["🇳🇵","Nepal","Kathmandu","asia"],["🇦🇪","United Arab Emirates","Abu Dhabi","asia"],["🇴🇲","Oman","Muscat","asia"],["🇵🇰","Pakistan","Islamabad","asia"],["🇸🇦","Saudi Arabia","Riyadh","asia"],["🇰🇵","North Korea","Pyongyang","asia"],["🇸🇬","Singapore","Singapore","asia"],["🇸🇾","Syria","Damascus","asia"],["🇹🇯","Tajikistan","Dushanbe","asia"],["🇹🇭","Thailand","Bangkok","asia"],["🇹🇼","Taiwan","Taipei","asia"],["🇹🇲","Turkmenistan","Ashgabat","asia"],["🇹🇷","Turkey","Ankara","asia"],["🇺🇿","Uzbekistan","Tashkent","asia"],["🇵🇭","Philippines","Manila","asia"],["🇱🇰","Sri Lanka","Colombo","asia"],["🇰🇷","South Korea","Seoul","asia"],["🇯🇵","Japan","Tokyo","asia"],["🇦🇹","Austria","Vienna","europe"],["🇦🇱","Albania","Tirana","europe"],["🇧🇾","Belarus","Minsk","europe"],["🇧🇪","Belgium","Brussels","europe"],["🇧🇬","Bulgaria","Sofia","europe"],["🇧🇦","Bosnia and Herzegovina","Sarajevo","europe"],["🇬🇧","United Kingdom","London","europe"],["🇭🇺","Hungary","Budapest","europe"],["🇩🇪","Germany","Berlin","europe"],["🇬🇷","Greece","Athens","europe"],["🇩🇰","Denmark","Copenhagen","europe"],["🇮🇪","Ireland","Dublin","europe"],["🇮🇸","Iceland","Reykjavik","europe"],["🇪🇸","Spain","Madrid","europe"],["🇮🇹","Italy","Rome","europe"],["🇨🇾","Cyprus","Nicosia","europe"],["🇱🇻","Latvia","Riga","europe"],["🇱🇹","Lithuania","Vilnius","europe"],["🇱🇮","Liechtenstein","Vaduz","europe"],["🇱🇺","Luxembourg","Luxembourg","europe"],["🇲🇹","Malta","Valletta","europe"],["🇲🇩","Moldova","Chisinau","europe"],["🇲🇨","Monaco","Monaco","europe"],["🇳🇱","Netherlands","Amsterdam","europe"],["🇳🇴","Norway","Oslo","europe"],["🇵🇱","Poland","Warsaw","europe"],["🇵🇹","Portugal","Lisbon","europe"],["🇷🇺","Russia","Moscow","europe"],["🇷🇴","Romania","Bucharest","europe"],["🇸🇲","San Marino","San Marino","europe"],["🇲🇰","North Macedonia","Skopje","europe"],["🇷🇸","Serbia","Belgrade","europe"],["🇸🇰","Slovakia","Bratislava","europe"],["🇸🇮","Slovenia","Ljubljana","europe"],["🇺🇦","Ukraine","Kyiv","europe"],["🇫🇮","Finland","Helsinki","europe"],["🇫🇷","France","Paris","europe"],["🇭🇷","Croatia","Zagreb","europe"],["🇨🇿","Czech Republic","Prague","europe"],["🇨🇭","Switzerland","Bern","europe"],["🇸🇪","Sweden","Stockholm","europe"],["🇪🇪","Estonia","Tallinn","europe"],["🇦🇬","Antigua and Barbuda","Saint John's","north_america"],["🇧🇸","The Bahamas","Nassau","north_america"],["🇧🇧","Barbados","Bridgetown","north_america"],["🇧🇿","Belize","Belmopan","north_america"],["🇭🇹","Haiti","Port-au-Prince","north_america"],["🇬🇹","Guatemala","Guatemala City","north_america"],["🇭🇳","Honduras","Tegucigalpa","north_america"],["🇬🇩","Grenada","Saint George's","north_america"],["🇩🇲","Dominica","Roseau","north_america"],["🇩🇴","Dominican Republic","Santo Domingo","north_america"],["🇨🇦","Canada","Ottawa","north_america"],["🇨🇷","Costa Rica","San José","north_america"],["🇨🇺","Cuba","Havana","north_america"],["🇲🇽","Mexico","Mexico City","north_america"],["🇳🇮","Nicaragua","Managua","north_america"],["🇵🇦","Panama","Panama City","north_america"],["🇸🇻","El Salvador","San Salvador","north_america"],["🇻🇨","Saint Vincent and the Grenadines","Kingstown","north_america"],["🇰🇳","Saint Kitts and Nevis","Basseterre","north_america"],["🇱🇨","Saint Lucia","Castries","north_america"],["🇺🇸","United States","Washington, D.C.","north_america"],["🇹🇹","Trinidad and Tobago","Port of Spain","north_america"],["🇯🇲","Jamaica","Kingston","north_america"],["🇦🇺","Australia","Canberra","oceania"],["🇻🇺","Vanuatu","Port Vila","oceania"],["🇰🇮","Kiribati","South Tarawa","oceania"],["🇲🇭","Marshall Islands","Majuro","oceania"],["🇳🇷","Nauru","Yaren","oceania"],["🇳🇿","New Zealand","Wellington","oceania"],["🇵🇼","Palau","Ngerulmud","oceania"],["🇵🇬","Papua New Guinea","Port Moresby","oceania"],["🇼🇸","Samoa","Apia","oceania"],["🇸🇧","Solomon Islands","Honiara","oceania"],["🇹🇴","Tonga","Nuku'alofa","oceania"],["🇹🇻","Tuvalu","Funafuti","oceania"],["🇫🇲","Federated States of Micronesia","Palikir","oceania"],["🇫🇯","Fiji","Suva","oceania"],["🇦🇷","Argentina","Buenos Aires","south_america"],["🇧🇴","Bolivia","Sucre","south_america"],["🇧🇷","Brazil","Brasília","south_america"],["🇻🇪","Venezuela","Caracas","south_america"],["🇬🇾","Guyana","Georgetown","south_america"],["🇨🇴","Colombia","Bogotá","south_america"],["🇵🇾","Paraguay","Asunción","south_america"],["🇵🇪","Peru","Lima","south_america"],["🇸🇷","Suriname","Paramaribo","south_america"],["🇺🇾","Uruguay","Montevideo","south_america"],["🇨🇱","Chile","Santiago","south_america"],["🇪🇨","Ecuador","Quito","south_america"]];
     var n = 0, score = 0, order = [];
     function rnd(k) { var a = new Uint32Array(1); crypto.getRandomValues(a); return a[0] % k; }
     function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = rnd(i + 1), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
