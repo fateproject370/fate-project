@@ -6,6 +6,9 @@
   <title>Калькулятор маржи и наценки онлайн — прибыль, маржа, цена без убытка</title>
   <meta name="description" content="Бесплатный калькулятор маржи и наценки: посчитайте прибыль сделки с учётом комиссии маркетплейса и налога, минимальную цену без убытка и цену под нужную маржу.">
   <link rel="canonical" href="https://fateproject.ru/kalkulyator-marzhi.html">
+  <link rel="alternate" hreflang="ru" href="https://fateproject.ru/kalkulyator-marzhi.html">
+  <link rel="alternate" hreflang="en" href="https://fateproject.ru/en/margin-calculator.html">
+  <link rel="alternate" hreflang="x-default" href="https://fateproject.ru/en/margin-calculator.html">
   <link rel="icon" href="/assets/images/fate-token-logo-32.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ru_RU">
@@ -126,6 +129,7 @@
         <a href="/kalkulyator-marzhi.html" aria-current="page">Калькулятор маржи</a>
         <a href="/stolitsy-mira-test.html">Тест: столицы мира</a>
         <a href="/podbrosit-monetku.html">Подбросить монетку</a>
+        <a href="/en/margin-calculator.html" hreflang="en" lang="en">English</a>
       </nav>
     </div>
   </header>
@@ -230,7 +234,7 @@
       s[0] = s[0].replace(/\B(?=(\d{3})+(?!\d))/g, " ");
       return (x < 0 ? "−" : "") + s[0] + "," + s[1] + " ₽";
     }
-    function pct(x) { return x.toFixed(2).replace(".", ",") + "%"; }
+    function pct(x) { return (x < 0 ? "−" : "") + Math.abs(x).toFixed(2).replace(".", ",") + "%"; }
     function row(label, value, big) {
       return "<dt>" + label + "</dt><dd" + (big ? ' class="big"' : "") + ">" + value + "</dd>";
     }
