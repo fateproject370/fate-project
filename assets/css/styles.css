@@ -162,10 +162,10 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+  grid-template-columns: minmax(0, 1fr);
   align-items: center;
   gap: clamp(30px, 6vw, 76px);
-  min-height: 570px;
+  min-height: 460px;
   padding-block: 30px 60px;
 }
 
