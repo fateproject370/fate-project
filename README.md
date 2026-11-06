@@ -7,9 +7,9 @@ FATE Project is an independent software project focused on practical Android app
 ### Android
 - [Cost & Profit](https://www.rustore.ru/catalog/app/com.fateproject.costandprofit) — cost, profit, margin and markup calculations.
 - [Genesis Business](https://www.rustore.ru/catalog/app/com.fateproject.genesis) — structured support for complex business decisions.
-- A new project in the field of design psychology is currently in development.
 
 ### Telegram
+- Психология дизайна (Design Psychology) — a completed Telegram bot.
 - [Монетка судьбы | Fate Coin](https://t.me/monetka_sudby_bot)
 - [Столицы мира | World Capitals](https://t.me/capitals_world_game_bot)
 - [Калькулятор маржинальности | Margin Bot](https://t.me/margin_business_bot)
